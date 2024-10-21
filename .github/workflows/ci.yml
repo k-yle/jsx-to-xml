@@ -39,7 +39,7 @@ jobs:
           npm test
 
       - name: 📦 Publish
-        if: ${{ false }}
+        if: ${{ github.ref == 'refs/heads/main' }}
         run: |
           npm config set //registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN
           npm run trypublish

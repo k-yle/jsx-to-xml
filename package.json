@@ -1,6 +1,6 @@
 {
   "name": "jsx-to-xml",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Kyle Hensel",
   "description": "Tiny package to stringify a JSX tree into XML/HTML",
   "license": "MIT",

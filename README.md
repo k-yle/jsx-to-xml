@@ -39,6 +39,7 @@ If you want to use this library to transform every `.jsx`/`.tsx` file in your re
 {
   "compilerOptions": {
 +   "jsx": "react-jsx",
++   "jsxImportSource": "jsx-to-xml",
   }
 }
 ```

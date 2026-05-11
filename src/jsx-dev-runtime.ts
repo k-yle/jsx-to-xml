@@ -4,6 +4,8 @@ export const Comment = () => undefined;
 /** `<CData>…</CData>` will be converted into `<![CDATA[…]]>` */
 export const CData = () => undefined;
 
+export const Fragment = undefined;
+
 /** stringifies a JSX tree */
 export const jsx = (
   name: string | ((props: unknown) => unknown),
